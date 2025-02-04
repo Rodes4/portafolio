@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactos</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/animate.css" />
+</head>
+
+<body class="back_img_large" ondragstart="return false" oncontextmenu="return false">
+    <header id="one" class="header_low">
+        <nav class="letra">
+            <ul>
+                <li>
+                    <a class="select" href="../pages/home.html">home</a>
+                    <a class="select" href="../pages/servicios.html">servicios</a>
+                    <a class="select" href="../pages/proyectos.html">proyectos</a>
+                    <a class="select" href="../pages/sobre mi.html">sobre mi</a>
+                </li>
+            </ul>
+            <div id="menuCell"><img src="../img/menu.png" style="margin-left: 20px;" alt="" width="35px" height="25px">
+            </div>
+            <div id="itemsMenuCell" class="hiddenMenuItems">
+                <img class="minilogo" src="../img/logo_menu.png" alt="" width="80px" height="80px">
+                <div class="borde"></div>
+                <ul>
+                    <li>
+                        <a href="../pages/home.html">home</a>
+                        <a href="../pages/servicios.html">servicios</a>
+                        <a class="select" href="../pages/proyectos.html">proyectos</a>
+                        <a href="../pages/sobre mi.html">sobre mi</a>
+
+                    </li>
+                </ul>
+                <div id="closeMenuItems"><img src="../img/cancelar.png" alt="" width="20px" height="20px"></div>
+            </div>
+        </nav>
+        <div class="header-info_low">
+            <!-- <div><img src="../img/logo.png" width="200px" alt=""></div> -->
+            <p class="letra animated fadeInUp delay-02s" style="color: rgb(249, 216, 6);">Contactos</p>
+        </div>
+    </header>
+
+   
+    <section class="letra ">
+       
+        <h1 class="animated fadeInDown delay-12s texto_cont" style="font-size: 40px; color: rgb(249, 216, 6);">
+            ESTOY A SU COMPLETA DISPOSICION</h1>
+        <h1 class="animated fadeInDown delay-20s texto_cont" style="font-size: 35px; color: white;">
+            Enviame un e-mail</h1>
+        <h1 class="animated fadeInDown delay-25s texto_cont" style="font-size: 25px; color: white;">
+            Rellene el formulario de contactos que esta abajo</h1>
+        
+
+        <div class="cont_alinear estilo_texto tamaño_letra" style="margin-top: 100px;">
+            <div class="form_contact">
+                <form class="form-contactame" action="https://formsubmit.co/rogelito870704@gmail.com" method="POST"
+                    style="display: flex; flex-direction: column;align-items: center; gap:40px; padding: 10px;height: 100%; justify-content: center;">
+                    <input type="text" style="width: 70%;padding: 12px;" placeholder="Nombre" name="name">
+                    <input type="email" style="width: 70%;padding: 12px;" placeholder="Correo" required name="email" >
+                    <input type="text" style="width: 70%;padding: 12px;" placeholder="Asunto"name="subject">
+                    <textarea name="comments" id="" rows="7" style="width: 70%;padding: 7px;"
+                        placeholder="Comentario"></textarea>
+                    <input type="submit" style="padding: 12px; width: 20%;">
+                </form>
+            </div>
+            <div id="pregunta">
+                <img id="resolucion" src="../img/img_tele.png" alt="" width="400px" height="300px">
+                <div>
+                    <p>Pregunte sin pena. Estoy disponible las 24 horas del día para aclarar cualquier duda que tenga.
+                        Si lo prefiere puede contactarme en mis redes sociales y conversamos. Yo puedo ayudarte a
+                        realizar
+                        cualquier proyecto que tengas.</p>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="texto_cont" style="font-size: 25px; color: white; margin-top: 80px;">
+            Puedes encontrarme en mis redes sociales</h1>
+    </section>
+
+    <footer class="borde_footer_info borde_footer img_grid letra" style="margin-top: 50px;">
+        <h4>Contactame a:</h4>
+        <div class="footer_items">
+          <div>
+            <a class="cont_select" href="mailto:rogelito870704@gmail.com" target="_blank">
+            <div class="footer_item"><img src="../img/icono correo2.png" alt="" width="30" height="20">
+              <p>rogelito870704@gmail.com</p>
+            </div></a>
+            <a class="cont_select" href="https://wa.me/5356790025" target="_blank">
+            <div class="footer_item"><img src="../img/icono whatsapp.png" alt="" width="30" height="30">
+              <p>+53 56790025</p>
+            </div></a>
+          </div>
+  
+          <div>
+            <a class="cont_select" href="https://t.me/RogDesigner" target="_blank"><div class="footer_item"><img src="../img/icono telegram.png" alt="" width="30" height="25">
+              <p>Telegram</p>
+            </div></a>
+            <a class="cont_select" href="https://www.facebook.com/roger.fernandezmartinez.31" target="_blank"><div class="footer_item"><img src="../img/facebook_ico.svg" alt="" width="35" height="25">
+              <p>Facebook</p>
+            </div></a>      
+          </div>
+  
+          <div>
+            <a class="cont_select" href="https://x.com/RogDesign87" target="_blank"><div class="footer_item"><img src="../img/X_logo_2023_(white).png" alt="" width="30" height="25">
+              <p>@RogDesign87</p>
+            </div></a>
+            <div>
+                <a href="https://www.instagram.com/rogdesin7/" class="cont_select" target="_blank"><div class="footer_item"><img src="../img/instagram-new.png" alt="" width="30" height="25">
+                <p>Instagram</p>
+              </div></a>
+              </div>
+          </div>
+        </div>
+      </footer>
+
+    <script>
+        const menuCell = document.getElementById("menuCell");
+
+        const menuItemsCell = document.getElementById("itemsMenuCell");
+
+        const closeMenuItems = document.getElementById("itemsMenuCell");
+
+        let open = 0;
+
+        menuCell.addEventListener("click", () => {
+            console.log("ok");
+            if (open === 0) {
+                menuItemsCell.classList.add("showMenuItems");
+                menuItemsCell.classList.remove("hiddenMenuItems");
+                open = 1;
+
+                console.log(open)
+            }
+        })
+
+        closeMenuItems.addEventListener("click", () => {
+            if (open === 1) {
+                menuItemsCell.classList.add("hiddenMenuItems");
+                menuItemsCell.classList.remove("showMenuItems");
+                open = 0;
+
+                console.log(open)
+            }
+        });
+    </script>
+
+</body>
+
+</html>
