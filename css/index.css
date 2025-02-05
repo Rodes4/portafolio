@@ -27,8 +27,9 @@ body {
 }
 .menu_iconos :hover {
   -webkit-transform: translateX(-10px);
-  -webkit-transition: 1s;
+  -webkit-transition: 0.5s ease-in-out 0.1s; 
 }
+
 .portada_res {
   display: block;
   justify-content: center;
