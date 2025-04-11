@@ -577,17 +577,19 @@ nav ul li a {
   }
 
   .brand_resp{
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
     align-items: center;
-    
+    gap: 20px; 
   }
 
   .portada_res{
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
     align-items: center;
-    
+    gap: 20px;
   }
 
 
