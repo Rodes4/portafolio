@@ -30,10 +30,25 @@ body {
   -webkit-transition: 0.5s ease-in-out 0.1s; 
 }
 
+/* #boton_arriba{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+#boton_arriba[style="display: flex;"] {
+  opacity: 1;
+} */
+
 .portada_res {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.brand_resp{
+  display: flex;
+  justify-content: center;
+  align-items: start;
   text-align: center;
 }
 
@@ -59,6 +74,7 @@ body {
 #boton_arriba {
   right: 10px;
   position: fixed;
+
 }
 
 #boton_arriba :hover {
@@ -95,9 +111,28 @@ body {
 .letra {
   font-family: Arial, Helvetica, sans-serif;
 }
-.tamaño_letra {
-  font-size: 20px;
+.tamaño_letra_doc {
+  font-size: 16px;
 }
+.boton_mas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  background: rgb(138, 233, 15);
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px 0px 8px 0px;
+  text-decoration: none;
+}
+.boton_mas :hover{
+  background: rgba(245, 245, 244, 0.993);
+}
+/* .tamaño_letra_titulos{
+  font-size: 18px;
+} */
 .estilo_texto {
   color: white;
   width: 90%;
@@ -540,6 +575,22 @@ nav ul li a {
     justify-items: center;
     align-items: center;
   }
+
+  .brand_resp{
+    display: block;
+    justify-items: center;
+    align-items: center;
+    
+  }
+
+  .portada_res{
+    display: block;
+    justify-items: center;
+    align-items: center;
+    
+  }
+
+
   /* 
     #c_foto1{
         width: 250px;
@@ -629,8 +680,9 @@ nav ul li a {
 }
 
 .form-contactame input[type="submit"] {
-  font-size: 16px;
-  border-radius: 8px 0px 8px 8px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px 0px 8px 0px;
   border-color: white;
   background: rgb(249, 216, 6);
 }
