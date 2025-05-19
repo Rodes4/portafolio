@@ -514,7 +514,7 @@ nav ul li a {
   .img_lado_derecho {
     display: flex;
     flex-direction: column-reverse;
-    
+    gap: 20px;
   }
 
   .cont_alinear {
@@ -624,6 +624,7 @@ nav ul li a {
   .img_lado_derecho {
     display: flex;
     flex-direction: column-reverse;
+    gap: 20px;
   }
 
   .footer_items {
