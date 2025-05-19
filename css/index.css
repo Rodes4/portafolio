@@ -127,6 +127,12 @@ body {
   border-radius: 8px 0px 8px 0px;
  
 }
+.contenedor{
+  background-color: rgba(20, 20, 20, 0.865);
+  border-radius: 10px 0px 10px 0px;
+  
+}
+
 .boton_mas :hover{
   background: rgba(245, 245, 244, 0.993);
 }
@@ -143,6 +149,7 @@ body {
   display: flex;
   justify-content: center;
   opacity: 0.8;
+  margin-top: 10px;
 }
 
 .texto_color {
@@ -206,11 +213,15 @@ body {
   text-align: center;
   gap: 50px;
 }
+.espacio_cont{
+  padding: 20px;
+}
 
 .img_lado_derecho {
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  gap: 40px;
 }
 .img_grid {
   display: grid;
@@ -503,6 +514,7 @@ nav ul li a {
   .img_lado_derecho {
     display: flex;
     flex-direction: column-reverse;
+    
   }
 
   .cont_alinear {
