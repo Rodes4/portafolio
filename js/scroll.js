@@ -11,7 +11,7 @@ window.onscroll = function() {
     let posicionScroll = document.documentElement.scrollTop;
   
     // Muestra el botón si se supera una posición específica (ejemplo: 300px)
-    if (posicionScroll > 1000) {
+    if (posicionScroll > 2000) {
       boton.style.display = "block"; // Muestra el botón
     } else {
       boton.style.display = "none"; // Oculta el botón
