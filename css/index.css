@@ -395,7 +395,14 @@ nav ul li a {
   margin: 10px auto;
   color: white;
   margin-top: 20px;
-  background: rgba(2, 8, 57, 0.623);
+  background: linear-gradient(
+    to top,
+    #02254abc 7%,
+    #011c39bc 33%,
+    #011224bc 65%,
+    #000a15bc 93%
+  );
+  
 }
 .borde_texto {
   border-bottom: 2px solid rgb(247, 245, 245);
